@@ -1,0 +1,6 @@
+apply plugin: 'war'
+
+dependencies {
+    compile project(':services')
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+}
